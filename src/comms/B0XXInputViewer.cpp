@@ -51,7 +51,7 @@ void B0XXInputViewer::SendReport() {
     _report[17] = ASCII_BIT(_inputs.rt2);
     _report[18] = ASCII_BIT(_inputs.rf7);
     _report[19] = ASCII_BIT(_inputs.rf8);
-    _report[20] = ASCII_BIT(false);
+    _report[20] = ASCII_BIT(_inputs.lf5);
     _report[21] = ASCII_BIT(false);
     _report[22] = ASCII_BIT(false);
     _report[23] = ASCII_BIT(true);
